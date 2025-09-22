@@ -40,6 +40,7 @@ function Watermark(props: WatermarkProps) {
   return (
     <div
       style={{
+        display:"hidden",
         position: 'absolute',
         pointerEvents: 'none',
         color: '#8282829e',
